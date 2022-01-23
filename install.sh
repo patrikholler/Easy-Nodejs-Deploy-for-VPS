@@ -8,8 +8,9 @@ do
     esac
 done
 
-echo  ------------------------------ Update ------------------------------ 
+echo  ------------------------------ Upgrade and Update ------------------------------ 
 
+sudo apt-get upgrade
 sudo apt-get update
 
 echo  ------------------------------ Installing packages ------------------------------ 
@@ -61,6 +62,8 @@ sudo apt-get install -y nodejs
 
 echo  ------------------------------ Installing pm2 ------------------------------ 
 npm install pm2 -g
+
+echo  ------------------------------ Create basic nodejs app ------------------------------ 
 
 cat > /var/www/$DOMAIN_NAME/public_html/app.js <<EOF
 let http = require('http');

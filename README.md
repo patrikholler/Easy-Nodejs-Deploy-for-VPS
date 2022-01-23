@@ -1,5 +1,5 @@
 # Easy Nodejs Deploy for VPS (Ubuntu 20.04)
-I created this shell script to help to install programs and packages quickly and easy way.
+I created this shell script to help to install programs and packages quickly and easy way.\
 Tested on DigitalOcean service.
 
 ## Include
@@ -17,7 +17,7 @@ bash install.sh -d YOURDOMAIN.COM -e YOUREMAIL@ADDRESS.COM
 
 ## About this shell script
 The script install programs and packages and set https certification for your domain.
-And it creates a basic node.js program that runs on the port of 5000
+It creates a basic node.js server which runs on the port of 5000
 
 ## Useful References and Sources
 
