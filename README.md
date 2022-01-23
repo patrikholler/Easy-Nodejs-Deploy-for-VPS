@@ -24,3 +24,12 @@ It creates a basic node.js server which runs on the port of 5000
 * [Install Nodejs](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-20-04)
 * [A good shell script pattern](https://gist.github.com/anatoliychakkaev/744062/6160cecb209eb371bc6d15f73ecc8f39fae7fc52#file-install-nodejs)
 * [Nginx Lets Encrypt installer](https://github.com/renjithspace/nginx-lets-encrypt-installer/blob/master/installer.sh)
+
+
+License
+=======
+MIT
+
+Copyright
+=========
+(c) 2022 Patrik Holler
