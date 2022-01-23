@@ -1,4 +1,4 @@
-# Easy VPS Deploy for Ubuntu 20.04
+# Easy Nodejs Deploy for VPS (Ubuntu 20.04)
 I created this shell script to help to install programs and packages quickly and easy way.
 Tested on DigitalOcean service.
 
